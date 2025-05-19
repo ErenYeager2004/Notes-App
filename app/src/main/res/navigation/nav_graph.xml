@@ -31,4 +31,8 @@
             android:id="@+id/action_editNoteFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <argument
+        android:name="note"
+        app:argType="com.example.myapplication.model.Note"
+        app:nullable="true"/>
 </navigation>
