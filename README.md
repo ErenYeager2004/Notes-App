@@ -1,2 +1,2 @@
 # Notes-App
-A simple notes app using mvvm and room database in android studio using kotlin.
+A simple notes app using mvvm and room database in android studio using Kotlin.
