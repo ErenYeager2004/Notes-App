@@ -18,6 +18,10 @@ class NoteViewModel(app:Application,private val noteRepository: NoteRepository):
         viewModelScope.launch {
             noteRepository.updateNote(note)
         }
+    fun updateNote(note: Note)=
+        viewModelScope.launch {
+            noteRepository.updateNote(note)
+        }
 
     fun getAllNote() = noteRepository.getAllNotes()
 

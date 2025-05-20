@@ -40,5 +40,5 @@ androidx-lifecycle-compiler = { module = "androidx.lifecycle:lifecycle-compiler"
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-parcelize = { id = "kotlin-parcelize", version.ref = "kotlin" }
-ksp = { id = "com.google.devtools.ksp", version = "1.9.0-1.0.13" }
+ksp = { id = "com.google.devtools.ksp", version = "1.9.24-1.0.20" }
 navigation-safeargs = { id = "androidx.navigation.safeargs", version = "2.7.7" }
